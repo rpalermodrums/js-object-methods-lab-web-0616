@@ -48,7 +48,7 @@ describe('index', () => {
     })
   })
 
-  describe('#onductPressInterview', function() {
+  describe('#conductPressInterview', function() {
     it('returns "I am proud to be an American."', function() {
       expect(lyndonJohnson.conductPressInterview()).toEqual("I am proud to be an American.")
     })
